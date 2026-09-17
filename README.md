@@ -8,11 +8,11 @@ Built with fluid responsive typography, curved SVG marquee paths, smooth GSAP an
 
 ## ✨ Features & Highlights
 
-- **Curved SVG Path Marquee**: Dynamic text path running along a custom Bézier curve (<textPath>) creating a wave marquee effect on scroll.
-- **Interactive Video Showcase**: Multi-card video showcase with smooth hover inertia tilt and embedded HTML5 video reels.
-- **GSAP & ScrollTrigger Animations**: High-performance scrolling transitions powered by GSAP and ScrollTrigger.
+- **Curved SVG Path Marquee**: Dynamic text path running along a custom Bézier curve (<textPath>) creating a wave marquee effect.
+- **Interactive Video Showcase**: Multi-card video showcase with smooth inertia transitions and embedded HTML5 video reels.
+- **GSAP & ScrollTrigger Animations**: High-performance scrolling transitions powered by GSAP, ScrollTrigger, and CustomEase.
 - **Fluid Container Scaling**: Responsive layout utilizing CSS clamp() math to scale seamlessly across desktop, tablet, and mobile displays.
-- **Clean & Lightweight Codebase**: Zero bloat, no third-party framework dependencies, and error-free execution.
+- **Modern Dark Aesthetic**: Minimalist dark visual design paired with bold typography and clear call-to-action triggers.
 
 ---
 
@@ -20,23 +20,20 @@ Built with fluid responsive typography, curved SVG marquee paths, smooth GSAP an
 
 `
 Aiyooo promo/
-├── index.html               # Main promo landing page markup & styling
+├── index.html            # Main promo landing page markup & styling
 ├── css/
-│   └── style.css            # Core stylesheet and layout rules
+│   └── style.css         # Core stylesheet and layout rules
 ├── js/
-│   ├── app.js               # Clean, modular application script
-│   ├── gsap.min.js          # GSAP animation library
+│   ├── app.js            # Main application script
+│   ├── gsap.min.js       # GSAP core animation library
 │   ├── ScrollTrigger.min.js # GSAP ScrollTrigger plugin
-│   └── CustomEase.min.js    # GSAP CustomEase plugin
+│   └── CustomEase.min.js # GSAP CustomEase plugin
 ├── media/
-│   ├── batman.mp4           # Video reel asset 1
-│   ├── luca.mp4             # Video reel asset 2
-│   └── panda.mp4            # Video reel asset 3
-├── .github/
-│   └── workflows/
-│       └── deploy.yml       # GitHub Pages automated deployment
-├── .gitignore               # Git ignore rules
-└── README.md                # Project documentation
+│   ├── batman.mp4        # Reel video asset 1
+│   ├── luca.mp4          # Reel video asset 2
+│   └── panda.mp4         # Reel video asset 3
+├── .gitignore            # Git ignore rules
+└── README.md             # Project documentation
 `
 
 ---
