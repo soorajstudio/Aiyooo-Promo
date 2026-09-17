@@ -1,4 +1,4 @@
-# 🎬 AI-YOOO Promo — Creative Agency & Startup Showcase
+﻿# 🎬 AI-YOOO Promo — Creative Agency & Startup Showcase
 
 A modern, high-impact promotional landing page crafted for **AI-YOOO**, highlighting bespoke website design, startup MVP development, and creative digital experiences.
 
@@ -24,7 +24,10 @@ Aiyooo promo/
 ├── css/
 │   └── style.css            # Core stylesheet and layout rules
 ├── js/
-│   └── script.js            # Unified bundle (GSAP, ScrollTrigger, CustomEase + App logic)
+│   ├── app.js               # Clean, modular application script
+│   ├── gsap.min.js          # GSAP animation library
+│   ├── ScrollTrigger.min.js # GSAP ScrollTrigger plugin
+│   └── CustomEase.min.js    # GSAP CustomEase plugin
 ├── media/
 │   ├── batman.mp4           # Video reel asset 1
 │   ├── luca.mp4             # Video reel asset 2
